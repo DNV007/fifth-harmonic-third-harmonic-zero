@@ -9,7 +9,7 @@ abstract: >-
   Harmonic-balance solver, continuation, Floquet stability, and time-domain
   cross-checks for an exact third-harmonic response zero in a damped nonlinear
   absorber, together with one driver per reported result, the extracted data,
-  and the figures as placed in the Letter and its Supplemental Material.
+  and the figures as placed in the manuscript and its Supplemental Material.
 type: software
 authors:
   - family-names: Sarkar
@@ -40,6 +40,6 @@ preferred-citation:
       affiliation: >-
         Institut fuer Theoretische Chemie, Universitaet Ulm, Oberberghof 7,
         89081 Ulm, Germany
-  journal: Physical Review Letters
+  journal: Physical Review manuscripts
   year: 2026
   status: submitted
