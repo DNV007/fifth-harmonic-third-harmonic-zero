@@ -20,9 +20,7 @@ authors:
       89081 Ulm, Germany
 version: 1.0.0
 date-released: '2026-09-01'
-license:
-  - MIT
-  - CC-BY-4.0
+license: MIT
 keywords:
   - nonlinear dynamics
   - harmonic balance
@@ -40,6 +38,5 @@ preferred-citation:
       affiliation: >-
         Institut fuer Theoretische Chemie, Universitaet Ulm, Oberberghof 7,
         89081 Ulm, Germany
-  journal: Physical Review manuscripts
   year: 2026
   status: submitted

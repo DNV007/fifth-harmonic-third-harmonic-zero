@@ -1,0 +1,22 @@
+{
+  "upload_type": "software",
+  "title": "Code and data for \"Fifth-Harmonic Feedback Controls the Existence of a Third-Harmonic Zero\"",
+  "description": "Harmonic-balance solver, continuation, Floquet stability, and time-domain cross-checks for an exact third-harmonic response zero in a damped nonlinear absorber, together with one driver per reported result, the extracted data, and the figures as placed in the manuscript and its Supplemental Material. reproduce.md maps every figure, table, section, and quoted value to the driver that produces it; run_all.py runs the whole pipeline in dependency order. Code is released under MIT; data and figures under CC-BY-4.0.",
+  "creators": [
+    {
+      "name": "Sarkar, Kanchan",
+      "affiliation": "Institut fuer Theoretische Chemie, Universitaet Ulm, Ulm, Germany"
+    }
+  ],
+  "license": "mit",
+  "access_right": "open",
+  "version": "1.0.0",
+  "keywords": [
+    "nonlinear dynamics",
+    "harmonic balance",
+    "antiresonance",
+    "higher harmonics",
+    "numerical continuation",
+    "reproducibility"
+  ]
+}
