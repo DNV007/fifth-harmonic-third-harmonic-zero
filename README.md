@@ -21,7 +21,7 @@ JAX_ENABLE_X64=1 uv run python scripts/run_all.py    # regenerate every reported
 ```
 
 Run everything **from the root of this deposit**. `run_all.py` executes the 39
-drivers behind the Letter and its Supplemental Material in dependency order, and
+drivers behind the manuscript and its Supplemental Material in dependency order, and
 takes a few hours end to end because several continuations are individually slow
 (see [Runtimes](#runtimes)).
 
@@ -71,10 +71,10 @@ than validated proofs.
 | `src/hh_antiresonance/` | the library: harmonic-balance solver, continuation, stability, time integration, figure style |
 | `scripts/` | one driver per result; see `reproduce.md` |
 | `data/` | CSV outputs of the drivers, and the `.npz` grid caches |
-| `figures/` | PDF and PNG figures, as placed in the Letter and Supplemental Material |
+| `figures/` | PDF and PNG figures, as placed in the manuscript and Supplemental Material |
 | `tests/` | pytest suite over the numerical primitives |
 | `reproduce.md` | **claim, table, and figure to script map** |
-| `CITATION.cff` | machine-readable citation metadata for this deposit and the Letter |
+| `CITATION.cff` | machine-readable citation metadata for this deposit and the manuscript |
 
 ## Install and run
 
@@ -208,10 +208,10 @@ calculations both ways and prints the difference.
 
 ## Scope
 
-`scripts/`, `figures/` and `data/` carry exactly what backs the Letter and its
+`scripts/`, `figures/` and `data/` carry exactly what backs the manuscript and its
 Supplemental Material, and nothing else: the 39 drivers of `run_all.py`, the
 figures as placed in the two documents, and the data those drivers write or
-read. Every quantity reported in the Letter and its Supplemental Material has a
+read. Every quantity reported in the manuscript and its Supplemental Material has a
 driver here, and the values printed in the paper are the ones these drivers
 produce. Earlier exploratory campaigns are not part of this deposit. `src/` is
 shipped whole because it is one importable package.
@@ -221,7 +221,7 @@ shipped whole because it is one importable package.
 Code is MIT (`LICENSE`). Data and figures are CC-BY-4.0 (`LICENSE-text`).
 
 Every figure here is an output of the code in this deposit, computed from the
-model in the Letter. Nothing is reproduced from a published source, and no
+model in the manuscript. Nothing is reproduced from a published source, and no
 third-party material is included. The figures can also be regenerated from the
 scripts, so they are provided for convenience rather than as the record.
 
