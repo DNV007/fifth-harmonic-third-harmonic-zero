@@ -18,6 +18,11 @@ authors:
     affiliation: >-
       Institut fuer Theoretische Chemie, Universitaet Ulm, Oberberghof 7,
       89081 Ulm, Germany
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22232687
+    description: >-
+      Concept DOI, resolving to the latest version of this deposit.
 version: 1.0.0
 date-released: '2026-09-01'
 license: MIT
