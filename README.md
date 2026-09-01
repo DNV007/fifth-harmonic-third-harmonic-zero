@@ -1,6 +1,6 @@
 # Fifth-Harmonic Feedback Controls the Existence of a Third-Harmonic Zero
 
-Code, data, figure scripts, and tests supporting the Letter
+Code, data, figure scripts, and tests supporting the manuscript
 
 > K. Sarkar, *Fifth-Harmonic Feedback Controls the Existence of a
 > Third-Harmonic Zero*.
