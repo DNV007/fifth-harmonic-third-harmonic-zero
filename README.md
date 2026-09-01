@@ -3,7 +3,7 @@
 Code, data, figure scripts, and tests supporting the Letter
 
 > K. Sarkar, *Fifth-Harmonic Feedback Controls the Existence of a
-> Third-Harmonic Zero*, submitted to Physical Review Letters (2026).
+> Third-Harmonic Zero*.
 
 `CITATION.cff` carries the same information in machine-readable form. Please
 cite both the paper and this deposit; the deposit DOI is added on publication.
