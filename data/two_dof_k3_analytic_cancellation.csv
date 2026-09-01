@@ -1,0 +1,11 @@
+quantity,value
+beta1_linear_fundamental,0.223646
+beta1_nonlinear_fundamental,0.231075
+beta1_full_HB,0.238154
+rel_err_linear,0.0609196
+rel_err_nonlinear,0.0297246
+pathway_onsite_abs,0.00610312
+pathway_coupling_abs,0.00610334
+fraction_cancelled_single_harmonic,0.995819
+residual_abs,2.55193e-05
+omega_mode2_antires_knl0,0.429793

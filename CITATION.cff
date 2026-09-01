@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software or the data it produces, please cite both the
+  software (this deposit) and the paper it supports.
+title: >-
+  Code and data for "Fifth-Harmonic Feedback Controls the Existence of a
+  Third-Harmonic Zero"
+abstract: >-
+  Harmonic-balance solver, continuation, Floquet stability, and time-domain
+  cross-checks for an exact third-harmonic response zero in a damped nonlinear
+  absorber, together with one driver per reported result, the extracted data,
+  and the figures as placed in the Letter and its Supplemental Material.
+type: software
+authors:
+  - family-names: Sarkar
+    given-names: Kanchan
+    email: pcksarkar@gmail.com
+    affiliation: >-
+      Institut fuer Theoretische Chemie, Universitaet Ulm, Oberberghof 7,
+      89081 Ulm, Germany
+version: 1.0.0
+date-released: '2026-09-01'
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - nonlinear dynamics
+  - harmonic balance
+  - antiresonance
+  - higher harmonics
+  - numerical continuation
+  - reproducibility
+preferred-citation:
+  type: article
+  title: >-
+    Fifth-Harmonic Feedback Controls the Existence of a Third-Harmonic Zero
+  authors:
+    - family-names: Sarkar
+      given-names: Kanchan
+      affiliation: >-
+        Institut fuer Theoretische Chemie, Universitaet Ulm, Oberberghof 7,
+        89081 Ulm, Germany
+  journal: Physical Review Letters
+  year: 2026
+  status: submitted

@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hh-antiresonance"
+version = "0.8.0"
+description = "Higher-harmonic antiresonance continuation scaffold"
+requires-python = ">=3.11"
+dependencies = ["numpy==2.4.6", "scipy==1.17.1", "jax==0.10.2", "jaxlib==0.10.2", "matplotlib==3.11.0", "pandas==3.0.3"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+# pytest is required to run the test suite advertised in README.md and
+# reproduce.md; without it declared here, `uv run pytest` picks up an ambient
+# pytest that cannot import the project.
+[dependency-groups]
+dev = ["pytest>=7"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,5 @@
+check,value,sm_reference
+FFT-Galerkin HB,delta ~ 4e-11,~3e-9
+Time domain, stiff solvers,|X3| ~ 3e-12; det. 1.2e-05,~5e-11; 1.2e-5
+Wide seed hunt,2 nondegenerate arms,2 arms
+N_H = 3 scan,min |X3| = 4.1e-06,4.1e-6
